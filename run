@@ -1,0 +1,13 @@
+
+cd ~/Dropbox/Files/Website/
+# sudo mv ./source_code.py /usr/local/bin/jemdoc.py
+
+
+cd ~/Dropbox/Files/Website/
+jemdoc -c mysite.conf index.jemdoc 
+jemdoc -c mysite.conf teaching.jemdoc 
+# jemdoc -c mysite.conf publications.jemdoc 
+
+open -a "Google Chrome" index.html 
+
+chmod -R 755 .

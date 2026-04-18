@@ -1,0 +1,91 @@
+# jemdoc: menu{MENU}{index.html}, notime,
+==Boxiang Wang
+
+~~~
+{}{img_left}{BoxiangWang.JPG}{alt text}{190}{210}{}
+Welcome to my home page! 
+
+I am an assistant professor in the [https://stat.uiowa.edu/ Department of Statistics and Actuarial Science] at [https://uiowa.edu/ The University of Iowa].\n
+
+I obtained my Ph.D. in the [https://cla.umn.edu/statistics School of Statistics] at the [https://twin-cities.umn.edu University of Minnesota] under the supervision of [http://users.stat.umn.edu/~zouxx019/ Professor Hui Zou]. I got my master's degree in the [https://www.bgsu.edu/business/departments-and-programs/applied-statistics-and-operations-research.html Department of Applied Statistics and Operation Research] at the [https://www.bgsu.edu/ Bowling Green State University], and my bachelor's degree in the [en.sms.nankai.edu.cn School of Mathematics] at [http://nankai.en.school.cucas.cn/ Nankai University].
+
+My research area is machine learning and big data with a specific focus on modern classification. My research also spans statistical computing, high-dimensional data analysis, and optimal design.
+
+~~~
+==== Contact:
+- *Address:* 261 Schaeffer Hall, Iowa City, IA 52242 \n 
+- *Phone:* \319-335-2294 \n
+- *E-mail:* boxiang-wang at uiowa.edu
+
+
+#== Research Interests
+#- Machine Learning and Big Data
+#- Computational Statistics
+#- High-dimensional Data Analysis
+#- Nonparametric Classification
+#- Experimental Design and Optimal Design
+
+#== Education
+#- Ph.D. candidate, [http://www.stat.umn.edu/ School of Statistics], [#http://www.umn.edu/ University of Minnesota], MN.
+#- M.S., [https://www.bgsu.edu/business/departments-and-#programs/applied-statistics-and-operations-research.html Department #of Applied Statistics and Operation Research], [https://www.bgsu.edu/ #Bowling Green State University], OH, 2012.
+#- B.S., [en.sms.nankai.edu.cn School of Mathematics], [http://nankai.#en.school.cucas.cn/ Nankai University], China, 2010.
+
+
+{{<c id="publications">}}
+== Publications
+- Wang, B. and Zou, H. (2018) [papers/kerndwd.pdf \"Another look at distance-weighted discrimination]\",  /Journal of the Royal Statistical Society, Series B/, 80(1), 177-198.
+- Koerner, T.K., Zhang, Y., Nelson, P., Wang, B., and Zou, H. (2017) [papers/HS2.pdf \"Neural indices of phonemic discrimination and sentence-level speech intelligibility in quiet and noise: A P3 study\"], /Hearing Research/, 350, 58-67.
+- Wang, B. and Zou, H. (2016) [papers/sdwd.pdf \"Sparse distance weighted discrimination\"], /Journal of Computational and Graphical Statistics/, 25(3), 826-838.
+- Koerner, T.K., Zhang, Y., Nelson, P., Wang, B., and Zou, H. (2016) [papers/HS1.pdf \"Neural indices of phonemic discrimination and sentence-level speech intelligibility in quiet and noise: A mismatch negativity study\"], /Hearing Research/, 339, 40-49.
+- Ning, W., Yeh, A., Wu, X., and Wang, B. (2015) 
+[papers/NYWW.pdf \"A nonparametric phase I control chart for individual observations based on empirical likelihood ratio\"], /Quality and Reliability Engineering International/, 31(1), 37--55.
+
+{{<c id="software">}}
+== Software
+
+~~~
+=== *R package: kerndwd*~  {{<img src=http://cranlogs.r-pkg.org/badges/grand-total/kerndwd width="90px"/><br />}} 
+
+The R package kerndwd uses the majorization-minimization principle to solve the linear DWD. It also formulates the kernel DWD in an reproducing kernel Hilbert space and develops the same algorithm for linear DWD. The package involves very fast tuning procedures and delivers prediction accuracy comparable to the kernel SVM.
+
+- Download from CRAN: [https://cran.r-project.org/web/packages/kerndwd] 
+- Author: Boxiang Wang and Hui Zou
+- Reference: Wang, B. and Zou, H. (2018) [papers/kerndwd.pdf \"Another look at distance-weighted discrimination\"], /JRSSB/, 80(1), 177-198.
+
+~~~
+
+~~~
+=== *R package: sdwd*~  {{<img src=http://cranlogs.r-pkg.org/badges/grand-total/sdwd width="90px"/><br />}} 
+
+The R package sdwd uses coordinate descent to solve sparse distance weighted discrimination for high-dimensional classification. The package computes the entire solution path for lasso, elastic net, and adpative lasso/elastic net penalties. The implementation is efficient involving computational tricks such as strong rule, warm start, and active set. The R package sdwd is extremely fast compared to some sparse support vector machines.
+
+- Download from CRAN: [https://cran.r-project.org/web/packages/sdwd] 
+- Author: Boxiang Wang and Hui Zou
+- Reference: Wang, B. and Zou, H. (2016) [papers/sdwd.pdf \"Sparse distance weighted discrimination\"], /JCGS/, 25(3), 826-838.
+
+~~~
+
+~~~
+=== *R package: CUSUMdesign*~  {{<img src=http://cranlogs.r-pkg.org/badges/grand-total/CUSUMdesign width="90px"/><br />}} 
+
+The R package CUSUMdesign employs the Markov chain algorithm to compute the average run length and the decision interval when the CUSUM charts are designed. The CUSUM chart is widely used for detecting small but persistent shifts in statistical process control.
+
+- Download from CRAN: [https://cran.r-project.org/web/packages/CUSUMdesign] 
+- Author: Douglas M. Hawkins, David H. Olwell, and Boxiang Wang
+~~~
+
+
+
+{{<a name="honors">}}
+== Honors & Awards
+- [https://www.grad.umn.edu/funding-tuition-fellowships-grants-ddf-doctoral-dissertation-fellowship/ddfconferencegrant DDF Conference Presentation Grant], University of Minnesota, 2017
+- [https://ww2.amstat.org/meetings/jsm/2016/onlineprogram/ActivityDetails.cfm?SessionID=212709 Student Paper Award], Section of SLDM, Joint Statistical Meetings, 2016
+- [https://www.grad.umn.edu/funding-tuition-ddf-doctoral-dissertation-fellowship/ddfrecipients2016-17 Doctoral Dissertation Fellowship], University of Minnesota, 2016
+- [http://pages.citebite.com/t6k0g6e6u3cyl Bernard W Lindgren Teaching Award], University of Minnesota, 2016
+- [https://www.nyas.org/events/2016/10th-annual-machine-learning-symposium/ Google Spotlight Presentation 1st Prize], 2016
+- [http://www.stat.umn.edu/news/older.php\#awards Martin-Buehler Fellowship], University of Minnesota, 2015
+- [http://www.mlss2014.com/ Machine Learning Summer School Fellowship], 2014
+- Alumni Fellowship, University of Minnesota, 2014
+- First Year Scholarship, University of Minnesota, 2012
+- James A. Sullivan Outstanding Graduate Award, BGSU, 2012
+- Robert A. Pattern Book Scholarship, BGSU, 2011

@@ -1,0 +1,36 @@
+# jemdoc: menu{MENU}{software.html}, nofooter  
+
+
+= Software
+
+~~~
+== *R package: sdwd*~  {{<img src=http://cranlogs.r-pkg.org/badges/grand-total/sdwd width="90px"/><br />}} 
+
+The R package sdwd uses coordinate descent to solve sparse distance weighted discrimination for high-dimensional classification. The package computes the entire solution path for lasso, elastic net, and adpative lasso/elastic net penalites. The implementation is efficient involving computational tricks such as strong rule, warm start, active set. The R package sdwd is extremely fast compared to sparse support vector machines.
+
+- Download from CRAN: [https://cran.r-project.org/web/packages/sdwd] 
+- Author: Boxiang Wang and Hui Zou
+- Reference: Wang, B. and Zou, H. (2016) [sdwd.pdf \"Sparse Distance Weighted Discrimination\"], /JCGS/, 25(3), 826-838.
+
+~~~
+
+
+~~~
+== *R package: kerndwd*~  {{<img src=http://cranlogs.r-pkg.org/badges/grand-total/kerndwd width="90px"/><br />}} 
+
+The R package kerndwd uses the majorization-minimization principle to solve the linear DWD, and also formulates the kernel DWD in an reproducing kernel Hilbert space and develops the same algorithm for linear DWD. The package involves very efficent tuning procedure and delivers highly comparable prediction accuracy as kernel SVM.
+
+- Download from CRAN: [https://cran.r-project.org/web/packages/kerndwd] 
+- Author: Boxiang Wang and Hui Zou
+- Reference: Wang, B. and Zou, H. (2017) [sdwd.pdf \"Another Look at Distance-Weighted Discrimination\"], /JRSSB/, to appear.
+
+~~~
+
+~~~
+== *R package: CUSUMdesign*~  {{<img src=http://cranlogs.r-pkg.org/badges/grand-total/CUSUMdesign width="90px"/><br />}} 
+
+The R package CUSUMdesign employs the Markov chain algorithm to compute the average run length and the decision interval when designing the CUSUM charts. The CUSUM chart is widely used when detecting small but persist shifts in statistical process control.
+
+- Download from CRAN: [https://cran.r-project.org/web/packages/CUSUMdesign] 
+- Author: Douglas M. Hawkins, David H. Olwell, and Boxiang Wang
+~~~
